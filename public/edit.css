@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+body{
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  /* text-align: center; */
+}
+
+h2{
+    color: maroon;
+    font-family: oswald;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+#content{
+    font-family: karla;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+ button{
+    min-width: 130px;
+    height: 40px;   
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    /* display: inline-block; */
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #212529;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user {
+    margin-left: 6px;
+     font-family: lora;
+     text-transform:capitalize;
+     font-weight:bold;
+ }
+.id {
+    margin-left: 6px;
+     font-family: lora;
+     text-transform:capitalize;
+     font-weight:bold;
+ }

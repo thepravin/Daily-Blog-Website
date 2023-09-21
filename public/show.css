@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lora:ital,wght@1,500&family=Lumanosimo&family=Oswald:wght@500&family=Poppins:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+body{
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  /* text-align: center; */
+}
+
+h2{
+    color: maroon;
+    font-family: oswald;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.user {
+    margin-left: 6px;
+     font-family: lora;
+     text-transform:capitalize;
+     font-weight:bold;
+ }
+.id {
+    margin-left: 6px;
+     font-family: lora;
+     text-transform:capitalize;
+     font-weight:bold;
+ }
+
+ .post {
+    background-color: #ECD5BB;
+  display: inline-block;
+    /* top | right | bottom | left */
+    margin: 15px 1em 0;
+    height:50vh;
+    width: 100vh;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  border-radius: 20px;
+   
+
+}
+
+.post p{
+    margin-left: 5px;
+}
